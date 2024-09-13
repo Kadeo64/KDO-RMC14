@@ -1,0 +1,16 @@
+#special.yml is for nonstandard helmets such as the xeno suit.
+- type: entity
+  parent: RMCHelmetBase
+  id: RMCXenonidSuitHood
+  noSpawn: true
+  name: Xenonid suit Hood
+  description: The hood of a Xenonid costume. Secured so tight to the torso, it's fully resistant to facehuggers.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/xenonidcostume_hood.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/xenonidcostume_hood.rsi
+  - type: CMArmor
+    bio: 70
+  - type: ParasiteResistance
+    maxCount: 99 #if someone manages to exhaust this during a round i'll be impressed
