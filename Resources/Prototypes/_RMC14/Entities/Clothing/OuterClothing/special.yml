@@ -1,0 +1,20 @@
+#special.yml is for nonstandard armor such as the xeno suit.
+- type: entity
+  parent: RMCBaseArmor
+  id: RMCXenonidSuit
+  name: Xenonid suit
+  description: A suit designed to mimic the look of a lesser drone. Good for infiltration and mostly acid proof. 
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/xenonidcostume.rsi
+  - type: Item
+    size: Huge
+  - type: CMArmor
+    bio: 70 
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/xenonidcostume.rsi
+  - type: ToggleableClothing
+    clothingPrototype: RMCXenonidSuitHood
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
