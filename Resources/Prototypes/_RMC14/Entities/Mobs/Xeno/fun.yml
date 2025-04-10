@@ -32,3 +32,5 @@
     evolvesTo: [ ]
   - type: Xeno
     hidden: true
+  - type: RMCXenoDamageVisuals
+    prefix: wehny
